@@ -97,7 +97,7 @@ const HeroSection = () => {
               <FaTelegramPlane className="text-germes-green text-2xl mr-3" />
               <span className="text-white font-semibold">В Telegram</span>
             </div>
-          </div>
+          </motion.div>
 
           {/* CTA Button */}
           <motion.div variants={itemVariants} className="mb-16">
