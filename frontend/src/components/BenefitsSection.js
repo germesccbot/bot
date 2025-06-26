@@ -14,7 +14,7 @@ const BenefitsSection = () => {
     {
       icon: FaRubleSign,
       title: "Лучшие цены",
-      description: "ИИ сравнивает цены во всех магазинах и находит самые выгодные предложения",
+      description: "ИИ сравнивает цены в нашем магазине и находит самые выгодные предложения для вас",
       stat: "до 30%",
       statLabel: "экономии средств"
     },
@@ -28,7 +28,7 @@ const BenefitsSection = () => {
     {
       icon: FaMedal,
       title: "Экспертные знания",
-      description: "База знаний обновляется ежедневно с учетом новинок и отзывов покупателей",
+      description: "База знаний нашего ИИ обновляется ежедневно с учетом новинок и отзывов покупателей",
       stat: "10 000+",
       statLabel: "моделей в базе"
     }
@@ -59,7 +59,7 @@ const BenefitsSection = () => {
             <span className="block gradient-text">GERMES.CC?</span>
           </h2>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto leading-relaxed">
-            Преимущества современного подхода к выбору бытовой техники
+            Преимущества собственной разработки ИИ для выбора бытовой техники
           </p>
         </motion.div>
 

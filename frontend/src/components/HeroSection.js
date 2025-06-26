@@ -87,7 +87,7 @@ const HeroSection = () => {
           >
             <div className="flex items-center bg-white/10 backdrop-blur-sm rounded-2xl px-6 py-3 border border-white/20">
               <FaRobot className="text-germes-green text-2xl mr-3" />
-              <span className="text-white font-semibold">ИИ-консультант</span>
+              <span className="text-white font-semibold">ИИ от магазина</span>
             </div>
             <div className="flex items-center bg-white/10 backdrop-blur-sm rounded-2xl px-6 py-3 border border-white/20">
               <FaClock className="text-germes-green text-2xl mr-3" />
@@ -97,10 +97,10 @@ const HeroSection = () => {
               <FaTelegramPlane className="text-germes-green text-2xl mr-3" />
               <span className="text-white font-semibold">В Telegram</span>
             </div>
-          </motion.div>
+          </div>
 
           {/* CTA Button */}
-          <motion.div variants={itemVariants} className="mb-12">
+          <motion.div variants={itemVariants} className="mb-16">
             <a
               href="https://t.me/Germes_cc_bot"
               target="_blank"
@@ -117,45 +117,6 @@ const HeroSection = () => {
                 →
               </motion.div>
             </a>
-          </motion.div>
-
-          {/* Phone Mockups */}
-          <motion.div 
-            variants={itemVariants}
-            className="relative max-w-4xl mx-auto"
-          >
-            <div className="flex justify-center items-end space-x-4 md:space-x-8">
-              <motion.div
-                className="relative transform rotate-12 hover:rotate-6 transition-transform duration-500"
-                whileHover={{ scale: 1.05 }}
-              >
-                <div className="w-48 md:w-64 h-96 md:h-128 bg-germes-gray rounded-3xl border-8 border-gray-800 shadow-2xl overflow-hidden">
-                  <div className="w-full h-full bg-gradient-to-b from-germes-dark to-germes-gray p-4">
-                    <div className="text-germes-green text-sm font-semibold mb-2">Germes.cc - Онлайн консультант</div>
-                    <div className="text-white text-xs leading-relaxed">
-                      Добро пожаловать в магазин бытовой техники germes.cc! Я здесь, чтобы помочь вам выбрать идеальную технику для вашего дома 🏠
-                    </div>
-                  </div>
-                </div>
-              </motion.div>
-              
-              <motion.div
-                className="relative transform -rotate-12 hover:rotate-6 transition-transform duration-500"
-                whileHover={{ scale: 1.05 }}
-              >
-                <div className="w-48 md:w-64 h-96 md:h-128 bg-germes-gray rounded-3xl border-8 border-gray-800 shadow-2xl overflow-hidden">
-                  <div className="w-full h-full bg-gradient-to-b from-germes-dark to-germes-gray p-4">
-                    <div className="text-germes-green text-sm font-semibold mb-2">What can this bot do?</div>
-                    <div className="text-white text-xs leading-relaxed mb-4">
-                      Добро пожаловать в магазин бытовой техники germes.cc! Я здесь, чтобы помочь вам выбрать идеальную технику для вашего дома 🏠
-                    </div>
-                    <div className="bg-primary-600 text-white text-xs px-4 py-2 rounded-lg">
-                      Start
-                    </div>
-                  </div>
-                </div>
-              </motion.div>
-            </div>
           </motion.div>
         </motion.div>
       </div>
